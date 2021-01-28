@@ -1,4 +1,3 @@
-
 var gender=prompt("What is the gender of your son?");
 var remainder;
 
@@ -18,6 +17,5 @@ if(age==3){
 }
 document.write(remainder);
 document.write(message)
-
 confirm("Do you like our services?");
 alert("have a nice day");
