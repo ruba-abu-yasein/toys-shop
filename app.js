@@ -1,3 +1,12 @@
+
+var gender=prompt("What is the gender of your son?");
+var remainder;
+
+if(gender=="boy"){
+    remainder="We have interesting lego toys";
+}else if(gender=="girl"){
+   remainder="we have a lovely drawing toys";
+}
 var age=prompt("how old is your son?");
 
 var message;
@@ -7,15 +16,8 @@ if(age==3){
 }else if(age=>4){
     message="Choose educational toys";
 }
-var gender=prompt("What is the gender of your son?");
-var remainder;
+document.write(remainder);
+document.write(message)
 
-if(gender=="boy"){
-    remainder="We have interesting lego toys";
-}else if(gender=="girl"){
-   remainder="we have a lovely drawing toys";
-}
-document.write(message);
-document.write(remainder)
 confirm("Do you like our services?");
 alert("have a nice day");
