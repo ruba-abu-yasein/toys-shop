@@ -1,4 +1,4 @@
-var gender=prompt("What is the gender of your son?");
+var gender=prompt("What is the gender of your child?");
 var remainder;
 
 if(gender=="boy"){
