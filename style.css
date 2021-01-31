@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+  }
+  header{
+      background-color: rgb(100,200,150)
+  }
+  main h1{
+text-align: center;
+  }
+
+  header nav ul {
+list-style: none;
+  }
+  header nav ul li {
+      display: inline-block;
+      padding: 10px;
+  }
+ 
+  header nav ul li a {
+text-decoration: none;
+  }
+  #home {
+    color: brown;
+}
+#image {
+    float: right;
+}
+
+.paraghraph {
+    clear: both;
+    text-align: center;
+    border: solid 2px green;
+    padding: 20px;
+    color: rgb(20,10,100);
+}
