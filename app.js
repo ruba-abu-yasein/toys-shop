@@ -7,10 +7,9 @@ if(gender=="boy"){
    remainder="we have a lovely drawing toys";
 }
 
-
+var message;
 var age=prompt("how old is your child?");
 
-var message;
 
 if(age==3){
     message="Choose big and soft toys";
@@ -40,7 +39,14 @@ for ( var i=0 ; i<notoys ; i++){
     result = result + toyKind;
 }
 document.write(result);
+
+
+function welcome(){
+    var getName =prompt("whats your name" );
+    console.log(getName);
+
+}
+welcome();
 confirm("Do you like our services?");
 alert("have a nice day");
-
 
