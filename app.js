@@ -8,7 +8,7 @@ if(gender=="boy"){
 }
 
 
-var age=prompt("how old is your son?");
+var age=prompt("how old is your child?");
 
 var message;
 
